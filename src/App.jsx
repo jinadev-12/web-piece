@@ -1,5 +1,7 @@
 import React from 'react'
 import './index.css'
+import Navbar from './pages/Navbar'
+import Hero from "./pages/Hero";
 
 
 
@@ -7,9 +9,8 @@ import './index.css'
 function App() {
   return (
     <div>
-      <h1 className="bg-blue-700">fdsfhklsdhf</h1>
-      <br />
-      
+      <Navbar />
+      <Hero />
     </div>
   );
 }
