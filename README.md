@@ -1,37 +1,51 @@
+A modern web project built with cutting-edge front-end tools and best practices. This repository contains the source code for the website, including UI components, animations, and responsive layouts.
 
-import bucket from "../assets/img/order-img-1.png";
-import chicken1 from "../assets/img/chicken-dam-5.png";
-import chicken2 from "../assets/img/chicken-dam-6.png";
-import React, { useEffect, useRef } from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-gsap.registerPlugin(ScrollTrigger);
+🚀 Tech Stack
+
+React
+
+Tailwind CSS
+
+Vite
+
+GSAP (for animations)
+
+🧰 Getting Started
+
+Clone the repository and install dependencies:
+
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install
 
 
-    const sectionRef = useRef(null);
-    const textRef = useRef(null);
-    const imageRef = useRef(null);
-    const item1Ref = useRef(null);
-    const item2Ref = useRef(null);
-    const item3Ref = useRef(null);
+Run the development server:
+
+npm run dev
 
 
-    
-   useEffect(() => {
-     const ctx = gsap.context(() => {
-         gsap.fromTo(
-           textRef.current,
-           { y: 40, autoAlpha: 0 }, // start
-           {
-             y: 0,
-             autoAlpha: 1, // end
-             duration: 1,
-             scrollTrigger: {
-               trigger: sectionRef.current,
-               start: "top 80%",
-             },
-           }
-         );
-     }, sectionRef);
-   
-   },[])
+Build for production:
+
+npm run build
+
+
+Preview the production build:
+
+npm run preview
+
+📝 Features
+
+Responsive and modern UI
+
+Smooth animations
+
+Fast development setup
+
+Easy to extend and customize
+
+build using router
+
+
+📄 License
+
+This project is licensed under the MIT License — feel free to use it as you wish.
