@@ -24,7 +24,7 @@ function Navbar() {
       </div>
 
       {/* Navbar */}
-      <nav className="font-primary bg-[#0d1224] text-white border-b border-[#373f62] relative">
+      <nav className="font-primary bg-transparent text-white border-b border-[#ffffff57] relative">
         {/* Container */}
         <div className="flex justify-between items-center px-6 py-4">
           {/* Logo */}

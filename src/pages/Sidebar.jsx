@@ -13,7 +13,7 @@ const links = [
 export default function Sidebar() {
   return (
     <section className="md:block hidden">
-      <div className="h-[100vh] w-[233px] border-r border-[#373f62] font-secondary bg-[#0d1224] text-white pt-8">
+      <div className="h-[100vh] w-[233px] border-r border-[#ffffff57] font-secondary bg-transparent text-white pt-8">
         <ul className="flex flex-col h-full gap-4">
           {links.map((link) => (
             <NavLink
@@ -22,7 +22,7 @@ export default function Sidebar() {
               className={({ isActive }) =>
                 `flex items-center h-12 pl-5 rounded transition-colors duration-300 ${
                   isActive
-                    ? "bg-gradient-to-r from-[#26FFE340]"
+                    ? "bg-gradient-to-r from-[#4017bc]"
                     : "bg-transparent"
                 }`
               }
