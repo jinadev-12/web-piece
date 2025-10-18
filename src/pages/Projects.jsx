@@ -47,7 +47,7 @@ function Projects() {
           <h2 className="text-4xl font-bold font-primary mb-2">
             Our <span className="text-[#019eff]">Work</span>
           </h2>
-          <p className="text-gray-400">
+          <p className="text-gray-400 font-secondary tracking-wide text-[17px]">
             A glimpse of the projects we’ve built with passion and precision.
           </p>
         </div>

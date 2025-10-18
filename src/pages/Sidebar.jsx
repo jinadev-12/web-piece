@@ -2,12 +2,12 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const links = [
-  { name: "Home", path: "/" },
-  { name: "Our Works", path: "/Our Works" },
-  { name: "About Us", path: "/Projects" },
-  { name: "Reviews", path: "/Reviews" },
-  { name: "Connect", path: "/Connect" },
-  { name: "F A Q", path: "/FAQ" },
+  { name: "Home", path: "/", icon: "fi fi-rr-house-blank " },
+  { name: "Our Works", path: "/Our Works", icon: "fi fi-rr-master-plan " },
+  { name: "About Us", path: "/Projects", icon: "fi fi-rr-file-user  " },
+  { name: "Reviews", path: "/Reviews", icon: "fi fi-rr-star " },
+  { name: "Connect", path: "/Connect", icon: "fi fi-rr-comments " },
+  { name: "F A Q", path: "/FAQ", icon: "fi fi-rr-comments-question " },
 ];
 
 export default function Sidebar() {
@@ -29,11 +29,7 @@ export default function Sidebar() {
             >
               {/* <div className="h-12 w-[4px] rounded-tr-lg rounded-br-lg bg-[#26ffe3] mr-5"></div> */}
               <div className="flex items-center gap-2">
-                <img
-                  src="https://greatstack.dev/_next/static/media/projects.3710561f.png"
-                  alt=""
-                  className="w-[18px] h-[16px]"
-                />
+                <i className={link.icon}></i>{" "}
                 <span className="text-[14px]">{link.name}</span>
               </div>
             </NavLink>
