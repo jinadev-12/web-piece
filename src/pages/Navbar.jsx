@@ -23,12 +23,12 @@ function Navbar() {
       </div>
 
       {/* Navbar */}
-      <nav className="bg-[lch(16.1_10.6_263.6)] text-white relative shadow-[0_40px_60px_-10px_rgba(0,0,0,0.5)]">
+      <nav className="bg-[lch(16.1_10.6_263.6)] text-white relative font-secondary shadow-[0_40px_60px_-10px_rgba(0,0,0,0.5)]">
         {/* Container */}
         <div className="flex justify-between h-16 items-center px-6">
           {/* Logo */}
           <div>
-            <span className="text-lg font-primary tracking-wide hover:text-blue-400 transition">
+            <span className="uppercase text-lg font-primary tracking-wide hover:text-blue-400 transition">
               Webpiece
             </span>
           </div>
@@ -57,7 +57,7 @@ function Navbar() {
             <a
               href="#"
               className="text-sm p-[6px] px-6 rounded-full text-white font-medium
-              bg-gradient-to-r from-blue-600 bg-indigo-600
+              bg-[#019eff] 
               hover:from-blue-500 hover:to-indigo-500
               transition-all duration-300 shadow-md hover:shadow-lg"
             >

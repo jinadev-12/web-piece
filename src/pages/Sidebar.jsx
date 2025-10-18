@@ -22,7 +22,7 @@ export default function Sidebar() {
               className={({ isActive }) =>
                 `flex items-center h-12 pl-5 rounded transition-colors duration-300 ${
                   isActive
-                    ? "bg-gradient-to-r from-[#4017bc]"
+                    ? "bg-gradient-to-r from-[#019eff]"
                     : "bg-transparent"
                 }`
               }

@@ -4,7 +4,6 @@ import "./index.css";
 import Navbar from "./pages/Navbar";
 import Sidebar from "./pages/Sidebar";
 import Home from "./pages/Home";
-import bg1 from "./assets/bg1.png";
 import Connect from "./pages/Connect";
 import Projects from "./pages/Projects";
 

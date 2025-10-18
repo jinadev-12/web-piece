@@ -38,14 +38,14 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="h-[calc(100vh-64px)] overflow-hidden text-white py-16 font-primary"
+      className="h-[calc(100vh-64px)] overflow-hidden text-white py-16 font-primary w-full"
     >
       {/* container */}
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-6 ">
         {/* title */}
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold font-primary mb-2">
-            Our <span className="text-blue-500">Work</span>
+            Our <span className="text-[#019eff]">Work</span>
           </h2>
           <p className="text-gray-400">
             A glimpse of the projects we’ve built with passion and precision.
