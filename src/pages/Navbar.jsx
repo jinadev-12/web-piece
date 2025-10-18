@@ -26,7 +26,7 @@ function Navbar() {
       {/* Navbar */}
       <nav className="font-primary bg-transparent text-white border-b border-[#ffffff57] relative">
         {/* Container */}
-        <div className="flex justify-between items-center px-6 py-4">
+        <div className="flex  justify-between h-16 items-center px-6">
           {/* Logo */}
           <div>
             <span className="text-xl tracking-wider hover:text-blue-400 transition">

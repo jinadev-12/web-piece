@@ -13,7 +13,7 @@ const links = [
 export default function Sidebar() {
   return (
     <section className="md:block hidden">
-      <div className="h-[100vh] w-[233px] border-r border-[#ffffff57] font-secondary bg-transparent text-white pt-8">
+      <div className="h-[calc(100vh-64px)] w-[233px] border-r border-[#ffffff57] font-secondary bg-transparent text-white pt-8">
         <ul className="flex flex-col h-full gap-4">
           {links.map((link) => (
             <NavLink
