@@ -11,20 +11,17 @@ import Projects from "./pages/Projects";
 function App() {
   return (
     <Router>
-      <img
-        src={bg1}
-        alt=""
-        className="fixed top-0 left-0 -z-10 w-full h-full object-cover object-center"
-      />
-      <Navbar />
-
-      <div className="flex">
-        <Sidebar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Connect" element={<Connect />} />
-          <Route path="/" element={<Projects />} />
-        </Routes>
+      <div className="bg-black">
+        <Navbar />
+        {/* bg-[#313942] */}
+        <div className="flex bg-[linear-gradient(to_bottom,_#072f47a2_0%,_#072f47a2_20%,_lch(8.8_3.2_249_/1)_100%)] h-screen">
+          <Sidebar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Connect" element={<Connect />} />
+            <Route path="/Our Works" element={<Projects />} />
+          </Routes>
+        </div>
       </div>
     </Router>
   );
