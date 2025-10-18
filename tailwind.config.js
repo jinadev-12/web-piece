@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        primary: ["Outfit", "sans-serif"],
+        primary: ["Orbitron", "sans-serif"],
         secondary: ["Poppins", "sans-serif"],
       },
     },
