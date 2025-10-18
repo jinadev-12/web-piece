@@ -18,7 +18,10 @@ function App() {
       />
       <Navbar />
 
-      <div className="flex">
+      <div
+        className="flex h-[calc(100vh-64px)] overflow-hidden bg-[lch(8.8_3.2_249)]
+"
+      >
         <Sidebar />
         <Routes>
           <Route path="/" element={<Home />} />
