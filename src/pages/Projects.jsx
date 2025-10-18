@@ -64,16 +64,6 @@ function Projects() {
                 alt={p.title}
                 className="w-full h-52 object-cover"
               />
-              <div className="p-5">
-                <h3 className="text-xl font-semibold mb-2">{p.title}</h3>
-                <p className="text-gray-400 text-sm mb-4">{p.desc}</p>
-                <a
-                  href={p.link}
-                  className="inline-block text-sm text-blue-500 hover:text-blue-400 transition"
-                >
-                  View Project →
-                </a>
-              </div>
             </div>
           ))}
         </div>
