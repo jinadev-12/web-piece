@@ -4,9 +4,9 @@ import bg1 from "../assets/bg1.png";
 function Home() {
   return (
     // main
-    <div className="w-full h-[calc(100vh-64px)] bg-transparent ">
+    <div className="w-full  bg-transparent  h-[calc(100vh-64px)] overflow-hidden">
       {/* container */}
-      <div className="w-[90%] max-w-[1000px] h-full font-secondary flex justify-between">
+      <div className="w-[90%] max-w-[1000px] h-full font-secondary ">
         {/* head and button*/}
         <div className="flex flex-col  ml-16 mt-44 h-full">
           <h1 className="text-[110px] text-white font-primary font-normal ">
@@ -33,9 +33,9 @@ function Home() {
           </div>
         </div>
         {/* hero-img */}
-        <div className="w-auto h-[400px] mt-44 bg-transparent">
+        {/* <div className="w-auto h-[400px] mt-44 bg-transparent">
           <img src={bg1} alt="" className="w-full h-full object-cover bg-transparent"/>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -13,7 +13,7 @@ function App() {
       <div className="bg-black ">
         <Navbar />
         {/* bg-[#313942] */}
-        <div className="flex bg-gradient-to-b from-[#072F47] to-[#072e4765] h-screen">
+        <div className="flex bg-gradient-to-b from-[#072F47] to-[#072e4765] h-[calc(100vh-64px)]">
           <Sidebar />
           <Routes>
             <Route path="/" element={<Home />} />
