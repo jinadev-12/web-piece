@@ -6,6 +6,7 @@ import Sidebar from "./pages/Sidebar";
 import Home from "./pages/Home";
 import bg1 from "./assets/bg1.png";
 import Connect from "./pages/Connect";
+import Projects from "./pages/Projects";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Connect" element={<Connect />} />
+          <Route path="/" element={<Projects />} />
         </Routes>
       </div>
     </Router>
