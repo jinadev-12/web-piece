@@ -38,11 +38,14 @@ function Projects() {
   ];
 
   return (
-    <section id="projects" className=" text-white py-16 w-full ">
+    <section
+      id="projects"
+      className="text-white w-full h-[calc(100vh-64px)] overflow-y-hidden"
+    >
       {/* container */}
-      <div className="max-w-[1350px] mx-auto px-6 overflow-y-scroll">
+      <div className="max-w-[1350px] mx-auto px-6 h-full overflow-y-scroll py-16 [&::-webkit-scrollbar]:hidden scrollbar-hide">
         {/* title */}
-        <div className=" mb-12">
+        <div className="mb-12">
           <h2 className="text-6xl font-medium font-primary mb-2">
             Our <span className="">Work</span>
           </h2>
