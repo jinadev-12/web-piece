@@ -1,7 +1,9 @@
 import React from "react";
-import project1 from "../assets/dummy1.jpg";
-import project2 from "../assets/dummy2.jpg";
-import project3 from "../assets/dummy3.jpg";
+import project1 from "../assets/dummy1.png";
+import project2 from "../assets/dummy2.png";
+import project3 from "../assets/dummy3.png";
+import project4 from "../assets/dummy4.png";
+
 
 function Projects() {
   const projects = [
@@ -30,18 +32,15 @@ function Projects() {
       id: 4,
       title: "Weather App",
       desc: "A real-time weather app built with an API integration.",
-      img: project3,
+      img: project4,
       link: "#",
     },
   ];
 
   return (
-    <section
-      id="projects"
-      className="min-h-screen text-white py-16 w-full"
-    >
+    <section id="projects" className=" text-white py-16 w-full ">
       {/* container */}
-      <div className="max-w-[1350px] mx-auto px-6">
+      <div className="max-w-[1350px] mx-auto px-6 overflow-y-scroll">
         {/* title */}
         <div className=" mb-12">
           <h2 className="text-6xl font-medium font-primary mb-2">
