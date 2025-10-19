@@ -10,7 +10,7 @@ import Projects from "./pages/Projects";
 function App() {
   return (
     <Router>
-      <div className="bg-black ">
+      <div className="bg-black font-secondary">
         <Navbar />
         {/* bg-[#313942] */}
         <div className="flex bg-gradient-to-b from-[lch(16.1_10.6_263.6)] to-[#072e4765] h-[calc(100vh-64px)]">

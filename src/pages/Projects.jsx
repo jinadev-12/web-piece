@@ -1,5 +1,5 @@
 import React from "react";
-import project1 from "../assets/dummy1.jpg"; // add your project images
+import project1 from "../assets/dummy1.jpg";
 import project2 from "../assets/dummy2.jpg";
 import project3 from "../assets/dummy3.jpg";
 
@@ -28,8 +28,8 @@ function Projects() {
     },
     {
       id: 4,
-      title: "Digital Clock",
-      desc: "A sleek and responsive digital clock built with vanilla JS.",
+      title: "Weather App",
+      desc: "A real-time weather app built with an API integration.",
       img: project3,
       link: "#",
     },
@@ -38,14 +38,14 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="h-[calc(100vh-64px)] overflow-hidden text-white py-16 font-primary w-full"
+      className="min-h-screen text-white py-16 w-full"
     >
       {/* container */}
-      <div className="max-w-6xl mx-auto px-6 ">
+      <div className="max-w-[1350px] mx-auto px-6">
         {/* title */}
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold font-primary mb-2">
-            Our <span className="text-[#019eff]">Work</span>
+        <div className=" mb-12">
+          <h2 className="text-6xl font-medium font-primary mb-2">
+            Our <span className="">Work</span>
           </h2>
           <p className="text-gray-400 font-secondary tracking-wide text-[17px]">
             A glimpse of the projects we’ve built with passion and precision.
@@ -53,16 +53,21 @@ function Projects() {
         </div>
 
         {/* project container */}
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+        <div
+          className="grid gap-8 justify-center"
+          style={{
+            gridTemplateColumns: "repeat(auto-fit, minmax(330px, 1fr))",
+          }}
+        >
           {projects.map((p) => (
             <div
               key={p.id}
-              className="bg-[#11172b] rounded-2xl shadow-md hover:shadow-blue-500/20 overflow-hidden transition duration-300"
+              className="bg-[#11172b] border-[2px] border-transparent hover:border-[#019eff] hover:shadow-[0_0_10px_#019eff70] rounded-2xl overflow-hidden transition-all duration-200 flex flex-col items-center aspect-video"
             >
               <img
                 src={p.img}
                 alt={p.title}
-                className="w-full h-52 object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
           ))}

@@ -25,15 +25,14 @@ function Navbar() {
       {/* Navbar */}
       <nav
         className="
-      bg-[lch(16.1_10.6_263.6)]
-      bg-[#202f44]
-       text-white relative font-secondary shadow-[0_40px_50px_-5px_rgba(0,0,0,0.1)]"
+      bg-[#253447]
+       text-white relative shadow-[0_40px_50px_-5px_rgba(0,0,0,0.1)]"
       >
         {/* Container */}
         <div className="flex justify-between h-16 items-center px-6">
           {/* Logo */}
           <div>
-            <span className="uppercase text-lg font-primary tracking-wide hover:text-blue-400 transition">
+            <span className="uppercase text-lg tracking-wide hover:text-blue-400 transition">
               Webpiece
             </span>
           </div>
