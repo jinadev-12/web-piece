@@ -89,17 +89,18 @@ const faqs = [
     question: "How Do You Approach A New Project?",
     answer:
       "I start with understanding your goals and requirements thoroughly.",
-      Icon: <i class="fi fi-sr-comment text-3xl text-[#26ffe3]"></i>
+    Icon: <i class="fi fi-sr-comment text-3xl text-[#26ffe3]"></i>,
   },
   {
     question: "What Is The Cost Of Your Services?",
     answer: "Pricing varies based on project scope and requirements.",
+    Icon: <i class="fi fi-sr-comment text-3xl text-[#26ffe3]"></i>,
   },
 ];
 
 // --- Main FAQ Component ---
 export default function FAQ() {
-  const [openItem, setOpenItem] = React.useState("item-0");
+  const [openItem, setOpenItem] = React.useState("");
 
   return (
     <section className="w-full py-20 px-4 bg-[#001a14] text-white min-h-[100vh] pt-10">

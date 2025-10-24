@@ -8,6 +8,7 @@ import Connect from "./pages/Connect";
 import Projects from "./pages/Projects";
 import Reviews from "./pages/Reviews";
 import FAQ from "./pages/FAQ";
+import AboutUs from "./pages/AboutUs";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/Our Works" element={<Projects />} />
             <Route path="/Reviews" element={<Reviews />} />
             <Route path="/FAQ" element={<FAQ />} />
+            <Route path="/AboutUs" element={<AboutUs />} />
           </Routes>
         </div>
       </div>
