@@ -26,7 +26,7 @@ const AccordionTrigger = React.forwardRef(
       <AccordionPrimitive.Trigger
         ref={ref}
         className={cn(
-          "flex flex-1 items-center justify-between py-4 font-medium transition-all [&[data-state=open]>svg]:rotate-180",
+          "flex flex-1 items-center justify-between py-4  font-medium transition-all [&[data-state=open]>svg]:rotate-180",
           className
         )}
         {...props}
@@ -51,9 +51,9 @@ const AccordionContent = React.forwardRef(
       )}
       {...props}
     >
-      <div className="flex items-start justify-between mt-5 ml-[3.75rem]">
+      <div className="flex items-start justify-between mt-2 ml-[3.75rem]">
         {/* Inner padded container for the answer */}
-        <div className="px-6 py-6 bg-[#12342e]/60 rounded-l-full rounded-r-[20px] flex-1">
+        <div className="px-6 py-6 bg-[#12342e]/60 rounded-l-full rounded-r-[2150px] flex-1">
           {children}
         </div>
 
@@ -109,8 +109,8 @@ export default function FAQ() {
           <div className="inline-block bg-[#12342e] text-[#26ffe3] px-6 py-2 rounded-full text-sm font-semibold">
             FAQs
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight mt-6">
-            Have Questions? Here Are Quick Answers
+          <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mt-6">
+            Have Questions?<br /> Here Are Quick Answers
           </h2>
         </div>
 
@@ -130,7 +130,7 @@ export default function FAQ() {
               <AccordionItem key={index} value={itemValue}>
                 <AccordionTrigger
                   hideChevron
-                  className="hover:no-underline bg-[#12342e]/60 rounded-l-2xl rounded-r-full px-6 py-4 transition-all"
+                  className="hover:no-underline bg-[#12342e]/60 rounded-l-[2150px] rounded-r-full px-6 py-4 transition-all"
                 >
                   <div className="flex items-center gap-4 flex-1">
                     <div className="w-10 h-10 rounded-full bg-[#26ffe3] flex items-center justify-center flex-shrink-0">
