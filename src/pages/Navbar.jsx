@@ -29,7 +29,7 @@ function Navbar() {
        text-white relative shadow-[0_40px_50px_-5px_rgba(0,0,0,0.1)]"
       >
         {/* Container */}
-        <div className="flex justify-between h-16 items-center px-6">
+        <div className="flex justify-between h-[52px] md:h-16 items-center px-6">
           {/* Logo */}
           <div>
             <span className="uppercase text-lg tracking-wide hover:text-blue-400 transition">
@@ -62,7 +62,7 @@ function Navbar() {
             <a
               href="#"
               className="text-sm py-[6px] px-6 rounded  text-white font-[500]
-              bg-[#019eff] 
+              bg-blue-500
               hover:bg-[rgb(56,179,255)] 
               transition-all duration-200 shadow-md hover:shadow-lg"
             >

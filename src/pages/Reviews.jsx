@@ -1,8 +1,8 @@
 import React from "react";
-import user1 from "../assets/dummy1.png";
-import user2 from "../assets/dummy2.png";
-import user3 from "../assets/dummy3.png";
-import user4 from "../assets/dummy4.png";
+import user1 from "../assets/user1.jpg";
+import user2 from "../assets/user2.jpg";
+import user3 from "../assets/user3.jpg";
+import user4 from "../assets/user4.jpg";
 
 function Reviews() {
   const reviews = [
@@ -50,23 +50,21 @@ function Reviews() {
       className="text-white w-full h-screen overflow-hidden"
     >
       {/* Container */}
-      <div className="max-w-[1350px] h-full mx-auto px-6 py-16 overflow-y-scroll [&::-webkit-scrollbar]:hidden scrollbar-hide">
+      <div className="max-w-[1350px] h-full mx-auto px-6 py-16 md:py-20 overflow-y-scroll [&::-webkit-scrollbar]:hidden scrollbar-hide">
         {/* Title */}
-        <div className="mb-12 text-center md:text-left">
-          <h2 className="text-4xl md:text-6xl font-medium font-primary mb-3">
-            Client <span className="text-[#019eff]">Reviews</span>
-          </h2>
-          <p className="text-gray-400 font-secondary tracking-wide text-[17px] max-w-2xl mx-auto md:mx-0">
+        <div className="mb-16 md:mb-20 text-center">
+          <span className="py-2 px-4 text-sm rounded-full bg-[#ffffff18] mb-4 md:mb-6 inline-block">Reviews</span>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl max-w-[900px] mx-auto font-medium mb-3">
             See what our customers say about their experience with our work and
             products.
-          </p>
+          </h2>
         </div>
 
         {/* Card Container */}
         <div
-          className="grid gap-8 justify-center max-w-[1200px] items-stretch"
+          className="grid gap-8 justify-center items-stretch"
           style={{
-            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
           }}
         >
           {reviews.map((r) => (

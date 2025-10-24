@@ -12,6 +12,8 @@ const links = [
 
 export default function Sidebar() {
   return (
+    // SIDEBAR
+    // from-[#019eff]
     <section className="md:block hidden h-[calc(100vh-64px)]">
       <div className=" w-[233px] border-r h-full border-[#ffffff57] font-secondary bg-transparent text-white pt-8">
         <ul className="flex flex-col h-full gap-4">
@@ -22,7 +24,7 @@ export default function Sidebar() {
               className={({ isActive }) =>
                 `flex items-center h-12 pl-5 rounded transition-colors duration-300 ${
                   isActive
-                    ? "bg-gradient-to-r from-[#019eff]"
+                    ? "bg-gradient-to-r from-blue-500"
                     : "bg-transparent"
                 }`
               }
