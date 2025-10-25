@@ -47,14 +47,16 @@ function Reviews() {
   return (
     <section
       id="reviews"
-      className="text-white w-full h-screen overflow-hidden"
+      className="text-text w-full h-screen overflow-hidden bg-mainBg"
     >
       {/* Container */}
       <div className="max-w-[1350px] h-full mx-auto px-6 py-16 md:py-20 overflow-y-scroll [&::-webkit-scrollbar]:hidden scrollbar-hide">
         {/* Title */}
         <div className="mb-16 md:mb-20 text-center">
-          <span className="py-2 px-4 text-sm rounded-full bg-[#ffffff18] mb-4 md:mb-6 inline-block">Reviews</span>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl max-w-[900px] mx-auto font-medium mb-3">
+          <span className="py-2 px-4 text-sm rounded-full bg-boxBg/20 mb-4 md:mb-6 inline-block text-text">
+            Reviews
+          </span>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl max-w-[900px] mx-auto font-medium mb-3 text-text">
             See what our customers say about their experience with our work and
             products.
           </h2>
@@ -71,18 +73,18 @@ function Reviews() {
             <div
               key={r.id}
               className="
-                relative p-[1px] rounded-2xl hover:border-[#b9b9b9] transition-all duration-300
+                relative p-[1px] rounded-2xl hover:border-text/50 transition-all duration-300
               "
             >
               {/* Inner Card */}
               <div
                 className="
-                bg-[#25334677]
-    rounded-2xl overflow-hidden flex flex-col justify-between
-    p-6 min-h-[320px]
-    border-[1px] border-[#ffffff2a]
-    transition-all duration-300
-  "
+                  bg-boxBg/80
+                  rounded-2xl overflow-hidden flex flex-col justify-between
+                  p-6 min-h-[320px]
+                  border-[1px] border-text/20
+                  transition-all duration-300
+                "
               >
                 {/* Profile */}
                 <div className="gap-4 mb-6">
@@ -96,15 +98,15 @@ function Reviews() {
                     className="w-24 h-24 rounded-full object-cover mb-4"
                   />
                   <div>
-                    <h4 className="font-semibold text-white text-lg">
+                    <h4 className="font-semibold text-text text-lg">
                       {r.name}
                     </h4>
-                    <p className="text-sm text-gray-400">{r.profession}</p>
+                    <p className="text-sm text-text/60">{r.profession}</p>
                   </div>
                 </div>
 
                 {/* Review Text */}
-                <p className="text-gray-200 text-base leading-relaxed italic flex-1">
+                <p className="text-text/70 text-base leading-relaxed italic flex-1">
                   “{r.review}”
                 </p>
               </div>

@@ -4,7 +4,6 @@ import project2 from "../assets/dummy2.png";
 import project3 from "../assets/dummy3.png";
 import project4 from "../assets/dummy4.png";
 
-
 function Projects() {
   const projects = [
     {
@@ -41,16 +40,16 @@ function Projects() {
     // Products / our works
     <section
       id="projects"
-      className="text-white w-full h-screen overflow-hidden"
+      className="text-text w-full h-screen overflow-hidden bg-mainBg"
     >
       {/* container */}
       <div className="max-w-[1350px] h-full mx-auto px-6 py-16 md:py-20 overflow-y-scroll [&::-webkit-scrollbar]:hidden scrollbar-hide">
         {/* title */}
         <div className="mb-16 md:mb-20 text-center">
-          <span className="py-2 px-4 text-sm rounded-full bg-[#ffffff18] mb-4 md:mb-6 inline-block">
+          <span className="py-2 px-4 text-sm rounded-full bg-boxBg/20 mb-4 md:mb-6 inline-block text-text">
             Our Works
           </span>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl max-w-[900px] mx-auto font-medium mb-3">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl max-w-[900px] mx-auto font-medium mb-3 text-text">
             A glimpse of the projects we’ve built with passion and precision.
           </h2>
         </div>
@@ -65,7 +64,7 @@ function Projects() {
           {projects.map((p) => (
             <div
               key={p.id}
-              className="bg-[#11172b] border-[2px] border-transparent hover:border-[#019eff] hover:shadow-[0_0_10px_#019eff70] rounded-2xl overflow-hidden transition-all duration-200 flex flex-col items-center aspect-video"
+              className="bg-boxBg border-[2px] border-transparent hover:border-accent hover:shadow-[0_0_10px_rgba(38,255,227,0.44)] rounded-2xl overflow-hidden transition-all duration-200 flex flex-col items-center aspect-video"
             >
               <img
                 src={p.img}

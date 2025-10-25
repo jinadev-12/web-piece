@@ -103,11 +103,11 @@ export default function FAQ() {
   const [openItem, setOpenItem] = React.useState("");
 
   return (
-    <section className="w-full py-20 px-4 bg-[#001a14] text-white min-h-[100vh] pt-10">
+    <section className="w-full py-20 px-4 text-white min-h-[100vh] pt-10">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <div className="inline-block bg-[#12342e] text-[#26ffe3] px-6 py-2 rounded-full text-sm font-semibold">
+          <div className="inline-block bg-[#12342e] text-accent px-6 py-2 rounded-full text-sm font-semibold">
             FAQs
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mt-6">
