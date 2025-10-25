@@ -1,8 +1,6 @@
 import React from "react";
-import project1 from "../assets/dummy1.png";
-import project2 from "../assets/dummy2.png";
-import project3 from "../assets/dummy3.png";
-import project4 from "../assets/dummy4.png";
+import project1 from "../assets/thumbnail1.jpg";
+
 
 function Projects() {
   const projects = [
@@ -17,21 +15,21 @@ function Projects() {
       id: 2,
       title: "Quiz App",
       desc: "An interactive JavaScript quiz app with score tracking.",
-      img: project2,
+      img: project1,
       link: "#",
     },
     {
       id: 3,
       title: "Digital Clock",
       desc: "A sleek and responsive digital clock built with vanilla JS.",
-      img: project3,
+      img: project1,
       link: "#",
     },
     {
       id: 4,
       title: "Weather App",
       desc: "A real-time weather app built with an API integration.",
-      img: project4,
+      img: project1,
       link: "#",
     },
   ];
