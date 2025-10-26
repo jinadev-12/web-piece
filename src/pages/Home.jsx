@@ -6,7 +6,7 @@ function Home() {
     // main
     <div className="w-full  bg-sectionBg  h-[calc(100vh-64px)] overflow-hidden">
       {/* container */}
-      <div className="w-[90%] max-w-[1000px] h-full font-secondary ">
+      <div className="w-[90%] max-w-[1000px] h-full font-secondary flex justify-center ">
         {/* head and button*/}
         <div className="flex flex-col  ml-16 mt-44 h-full">
           <h1 className="text-[110px] text-white font-primary font-normal ">
@@ -33,8 +33,8 @@ function Home() {
           </div>
         </div>
         {/* hero-img */}
-        <div className="w-[400px] h-auto absolute top-0 right-0 bg-transparent">
-          <img src={bg1} alt="" className="w-full h-full object-cover bg-yellow-600"/>
+        <div className="w-full bg-black h-auto   bg-transparent ">
+          <img src={bg1} alt="" className="w-full h-full object-cover"/>
         </div>
       </div>
     </div>
