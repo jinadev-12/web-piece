@@ -1,5 +1,9 @@
 import React from "react";
-import project1 from "../assets/thumbnail1.jpg";
+import project1 from "../assets/thumbnail-elysian.jpg";
+import project2 from "../assets/thumbnail-givewell.jpg";
+import project3 from "../assets/thumbnail-beauforte.jpg";
+import project4 from "../assets/thumbnail-roamara.jpg";
+
 
 
 function Projects() {
@@ -15,21 +19,21 @@ function Projects() {
       id: 2,
       title: "Quiz App",
       desc: "An interactive JavaScript quiz app with score tracking.",
-      img: project1,
+      img: project2,
       link: "#",
     },
     {
       id: 3,
       title: "Digital Clock",
       desc: "A sleek and responsive digital clock built with vanilla JS.",
-      img: project1,
+      img: project3,
       link: "#",
     },
     {
       id: 4,
       title: "Weather App",
       desc: "A real-time weather app built with an API integration.",
-      img: project1,
+      img: project4,
       link: "#",
     },
   ];
