@@ -33,9 +33,9 @@ function Home() {
           </div>
         </div>
         {/* hero-img */}
-        {/* <div className="w-auto h-[400px] mt-44 bg-transparent">
-          <img src={bg1} alt="" className="w-full h-full object-cover bg-transparent"/>
-        </div> */}
+        <div className="w-[400px] h-auto absolute top-0 right-0 bg-transparent">
+          <img src={bg1} alt="" className="w-full h-full object-cover bg-yellow-600"/>
+        </div>
       </div>
     </div>
   );
