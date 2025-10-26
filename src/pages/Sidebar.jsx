@@ -15,7 +15,7 @@ export default function Sidebar() {
     // SIDEBAR
     // from-[#019eff]
     <section className="md:block hidden h-[calc(100vh-64px)]">
-      <div className=" w-[233px] border-r h-full border-white/20 font-secondary bg-transparent text-text pt-8">
+      <div className=" w-[233px] border-r h-full border-white/20 font-secondary bg-sidebarBg text-text pt-8">
         <ul className="flex flex-col h-full gap-4">
           {links.map((link) => (
             <NavLink

@@ -4,9 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        accent: "#26ffe3",
-        mainBg: "#001a14",
-        boxBg: "#12342e",
+        accent: "#504ab9",
+        sectionBg: "#1f293a ",
+        sidebarBg: "#0f1628",
+        navbarBg: "#030617",
+        boxBg: "#414a5c",
         text: "#fff",
       },
       fontFamily: {

@@ -4,7 +4,7 @@ import bg1 from "../assets/bg1.png";
 function Home() {
   return (
     // main
-    <div className="w-full  bg-transparent  h-[calc(100vh-64px)] overflow-hidden">
+    <div className="w-full  bg-sectionBg  h-[calc(100vh-64px)] overflow-hidden">
       {/* container */}
       <div className="w-[90%] max-w-[1000px] h-full font-secondary ">
         {/* head and button*/}

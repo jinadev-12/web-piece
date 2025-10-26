@@ -5,7 +5,7 @@ function Connect() {
     // CONNECT
     <section
       id="projects"
-      className="text-text w-full h-screen overflow-hidden bg-mainBg"
+      className="text-text w-full h-screen overflow-hidden bg-sectionBg"
     >
       {/* container */}
       <div className="max-w-[1350px] h-full mx-auto px-6 py-16 md:pb-24 overflow-y-scroll [&::-webkit-scrollbar]:hidden scrollbar-hide">

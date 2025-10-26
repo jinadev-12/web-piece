@@ -53,7 +53,7 @@ const AccordionContent = React.forwardRef(
     >
       <div className="flex items-start justify-between mt-2 ml-[3.75rem]">
         {/* Inner padded container for the answer */}
-        <div className="px-6 py-6 bg-[#12342e]/60 rounded-l-full rounded-r-[2150px] flex-1">
+        <div className="px-6 py-6 bg-boxBg rounded-l-full rounded-r-[2150px] flex-1">
           {children}
         </div>
 
@@ -103,7 +103,7 @@ export default function FAQ() {
   const [openItem, setOpenItem] = React.useState("");
 
   return (
-    <section className="w-full py-20 px-4 text-white min-h-[100vh] pt-10">
+    <section className="w-full py-20 px-4 bg-sectionBg text-white min-h-[100vh] pt-10">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
@@ -111,7 +111,8 @@ export default function FAQ() {
             FAQs
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mt-6">
-            Have Questions?<br /> Here Are Quick Answers
+            Have Questions?
+            <br /> Here Are Quick Answers
           </h2>
         </div>
 
@@ -131,14 +132,14 @@ export default function FAQ() {
               <AccordionItem key={index} value={itemValue}>
                 <AccordionTrigger
                   hideChevron
-                  className="hover:no-underline bg-[#12342e]/60 rounded-l-[2150px] rounded-r-full px-6 py-4 transition-all"
+                  className="hover:no-underline bg-boxBg rounded-l-[2150px] rounded-r-full px-6 py-4 transition-all"
                 >
                   <div className="flex items-center gap-4 flex-1">
-                    <div className="w-10 h-10 rounded-full bg-[#26ffe3] flex items-center justify-center flex-shrink-0">
+                    <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center flex-shrink-0">
                       {isOpen ? (
-                        <Minus className="w-5 h-5 text-[#001a14]" />
+                        <Minus className="w-5 h-5 text-text" />
                       ) : (
-                        <HelpCircle className="w-5 h-5 text-[#001a14]" />
+                        <HelpCircle className="w-5 h-5 " />
                       )}
                     </div>
 
