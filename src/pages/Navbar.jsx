@@ -25,7 +25,7 @@ function Navbar() {
       {/* Navbar */}
       <nav
         className="
-        bg-boxBg text-text relative shadow-[0_40px_50px_-5px_rgba(0,0,0,0.1)]"
+        bg-navbarBg text-text relative shadow-[0_40px_50px_-5px_rgba(0,0,0,0.1)]"
       >
         {/* Container */}
         <div className="flex justify-between h-[52px] md:h-16 items-center px-6">

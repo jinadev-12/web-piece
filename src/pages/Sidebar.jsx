@@ -14,8 +14,9 @@ export default function Sidebar() {
   return (
     // SIDEBAR
     // from-[#019eff]
+    // border-r border-white/20
     <section className="md:block hidden h-[calc(100vh-64px)]">
-      <div className=" w-[233px] border-r h-full border-white/20 font-secondary bg-sidebarBg text-text pt-8">
+      <div className=" w-[233px] h-full font-secondary bg-sidebarBg text-text pt-8">
         <ul className="flex flex-col h-full gap-4">
           {links.map((link) => (
             <NavLink
@@ -23,9 +24,7 @@ export default function Sidebar() {
               to={link.path}
               className={({ isActive }) =>
                 `flex items-center h-12 pl-5 rounded transition-colors duration-300 ${
-                  isActive
-                    ? "bg-gradient-to-r from-accent"
-                    : "bg-transparent"
+                  isActive ? "bg-gradient-to-r from-accent" : "bg-transparent"
                 }`
               }
             >

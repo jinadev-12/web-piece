@@ -30,7 +30,7 @@ const AboutUs = () => {
   ];
 
   return (
-    <div className=" w-full max-w-[1300px] h-screen overflow-y-scroll text-white">
+    <div className=" w-full bg-sectionBg h-screen overflow-y-scroll text-white">
       {/* Hero Section */}
       <section className="relative  flex items-center ">
         <div
@@ -84,11 +84,17 @@ const AboutUs = () => {
             }}
           />
         </div>
-
-        <div className="container px-6 relative z-10">
-          <h2 className="text-4xl md:text-6xl font-bold text-primary-foreground mb-20 max-w-3xl leading-tight animate-fade-in">
-            How We Build Exceptional Digital Experiences{" "}
-          </h2>
+        {/* container */}
+        <div className="container px-6 relative z-10 flex flex-col items-center mx-auto">
+          {/* Title */}
+          <div className="mb-16 md:mb-20 text-center">
+            <span className="py-2 px-4 text-sm rounded-full bg-boxBg/20 mb-4 md:mb-6 inline-block text-text">
+              Services
+            </span>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl max-w-[900px] mx-auto font-medium mb-3 text-text">
+              How We Build Exceptional Digital Experiences{" "}
+            </h2>
+          </div>
 
           <div className="grid md:grid-cols-2 gap-x-16 gap-y-14 max-w-6xl">
             {services.map((service, index) => {

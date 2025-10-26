@@ -71,30 +71,30 @@ const faqs = [
     question: "Do You Offer Revisions On Designs?",
     answer:
       "Yes, I Provide Revisions To Ensure The Final Design Aligns Perfectly With Your Expectations.",
-    Icon: <i class="fi fi-sr-comment text-3xl text-[#26ffe3]"></i>,
+    Icon: <i class="fi fi-sr-comment text-3xl text-accent"></i>,
   },
   {
     question: "What Tools Do You Use For Your Work?",
     answer:
       "I use industry-standard design tools to deliver high-quality results.",
-    Icon: <i class="fi fi-sr-comment text-3xl text-[#26ffe3]"></i>,
+    Icon: <i class="fi fi-sr-comment text-3xl text-accent"></i>,
   },
   {
     question: "Can You Help With Branding From Scratch?",
     answer:
       "Absolutely! I can help you build your brand identity from the ground up.",
-    Icon: <i class="fi fi-sr-comment text-3xl text-[#26ffe3]"></i>,
+    Icon: <i class="fi fi-sr-comment text-3xl text-accent"></i>,
   },
   {
     question: "How Do You Approach A New Project?",
     answer:
       "I start with understanding your goals and requirements thoroughly.",
-    Icon: <i class="fi fi-sr-comment text-3xl text-[#26ffe3]"></i>,
+    Icon: <i class="fi fi-sr-comment text-3xl text-accent"></i>,
   },
   {
     question: "What Is The Cost Of Your Services?",
     answer: "Pricing varies based on project scope and requirements.",
-    Icon: <i class="fi fi-sr-comment text-3xl text-[#26ffe3]"></i>,
+    Icon: <i class="fi fi-sr-comment text-3xl text-accent "></i>,
   },
 ];
 
@@ -107,7 +107,7 @@ export default function FAQ() {
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <div className="inline-block bg-[#12342e] text-accent px-6 py-2 rounded-full text-sm font-semibold">
+          <div className="inline-block bg-boxBg text-text px-6 py-2 rounded-full text-sm font-semibold">
             FAQs
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mt-6">
