@@ -37,10 +37,15 @@ const AboutUs = () => {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: `url(${heroImage})` }}
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-mainBg via-mainBg/85 to-mainBg/30" />
+          <div className="absolute inset-0 bg-gradient-to-r from-sectionBg via-sectionBg/85 to-sectionBg/30" />
         </div>
 
-        <div className="container relative z-10 px-6 py-32">
+        <div className="container relative z-10 px-6 py-20 ">
+          <div className="w-full  flex justify-center items-center mb-4">
+            <span className="py-2 px-4 text-sm rounded-full bg-boxBg/20 mb-4 md:mb-6 inline-block text-text">
+              Our Works
+            </span>
+          </div>
           <div className="max-w-2xl animate-fade-in">
             <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 leading-[1.1]">
               Turning vision into beautiful, functional digital reality{" "}
@@ -50,8 +55,8 @@ const AboutUs = () => {
               Let us help you unlock the full potential of your business with
               our innovative designs.
             </p>
-            <button className="flex items-center gap-4 group hover-scale">
-              <div className="w-20 h-20 rounded-full bg-primary/10 backdrop-blur-sm border-2 border-primary/40 flex items-center justify-center group-hover:bg-primary/20 group-hover:border-primary/60 transition-all duration-300">
+            <button className="flex items-center gap-4 group hover-scale group">
+              <div className="w-20 h-20 group-hover:bg-accent rounded-full bg-transparent backdrop-blur-sm border-2  border-primary/40 flex items-center justify-center group-hover:bg-primary/20 group-hover:border-primary/60 transition-all duration-300">
                 <span>
                   <i class="fi fi-sr-link-alt text-3xl"></i>{" "}
                 </span>

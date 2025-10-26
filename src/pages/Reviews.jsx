@@ -54,7 +54,7 @@ function Reviews() {
         {/* Title */}
         <div className="mb-16 md:mb-20 text-center">
           <span className="py-2 px-4 text-sm rounded-full bg-boxBg/20 mb-4 md:mb-6 inline-block text-text">
-            Reviews
+            Our Works
           </span>
           <h2 className="text-2xl md:text-3xl lg:text-4xl max-w-[900px] mx-auto font-medium mb-3 text-text">
             See what our customers say about their experience with our work and
@@ -84,6 +84,8 @@ function Reviews() {
                   p-6 min-h-[320px]
                   border-[1px] border-text/20
                   transition-all duration-300
+shadow-[inset_0_2px_8px_rgba(80,74,185,0.4),inset_0_-4px_12px_rgba(80,74,185,0.6)]
+
                 "
               >
                 {/* Profile */}

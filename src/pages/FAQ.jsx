@@ -71,7 +71,7 @@ const faqs = [
     question: "Do You Offer Revisions On Designs?",
     answer:
       "Yes, I Provide Revisions To Ensure The Final Design Aligns Perfectly With Your Expectations.",
-    Icon: <i class="fi fi-sr-comment text-3xl text-accent"></i>,
+    Icon: <i class="fi fi-sr-comment text-3xl text-accent "></i>,
   },
   {
     question: "What Tools Do You Use For Your Work?",
@@ -107,9 +107,9 @@ export default function FAQ() {
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <div className="inline-block bg-boxBg text-text px-6 py-2 rounded-full text-sm font-semibold">
-            FAQs
-          </div>
+          <span className="py-2 px-4 text-sm rounded-full bg-boxBg/20 mb-4 md:mb-6 inline-block text-text">
+            Our Works
+          </span>
           <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mt-6">
             Have Questions?
             <br /> Here Are Quick Answers
@@ -135,9 +135,9 @@ export default function FAQ() {
                   className="hover:no-underline bg-boxBg rounded-l-[2150px] rounded-r-full px-6 py-4 transition-all"
                 >
                   <div className="flex items-center gap-4 flex-1">
-                    <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center flex-shrink-0">
+                    <div className="w-10 h-10 rounded-full text-sectionBg bg-accent flex items-center justify-center flex-shrink-0">
                       {isOpen ? (
-                        <Minus className="w-5 h-5 text-text" />
+                        <Minus className="w-5 h-5 " />
                       ) : (
                         <HelpCircle className="w-5 h-5 " />
                       )}

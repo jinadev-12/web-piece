@@ -11,8 +11,8 @@ function Connect() {
       <div className="max-w-[1350px] h-full mx-auto px-6 py-16 md:pb-24 overflow-y-scroll [&::-webkit-scrollbar]:hidden scrollbar-hide">
         {/* title */}
         <div className="mb-16 text-center">
-          <span className="py-2 px-4 text-sm rounded-full bg-boxBg mb-4 md:mb-6 inline-block">
-            Connect
+          <span className="py-2 px-4 text-sm rounded-full bg-boxBg/20 mb-4 md:mb-6 inline-block text-text">
+            Our Works
           </span>
           <h2 className="text-2xl lg:text-3xl max-w-[900px] mx-auto font-medium mb-3 text-text">
             Have a project in mind? Let’s work together! Fill out the form below
@@ -46,12 +46,10 @@ function Connect() {
                 href="https://wa.me/yourNumber"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 px-6 py-3 bg-accent/10 border border-accent/40 rounded-lg hover:bg-accent/20 transition-colors"
+                className="flex items-center justify-center gap-2 px-6 py-3 bg-[#25D366]/20 border border-[#25D366]/40 rounded-lg hover:bg-[#25D366]/30 transition-colors"
               >
-                <i className="ri-whatsapp-fill text-accent text-xl"></i>
-                <span className="font-medium text-text">
-                  Say hi on WhatsApp
-                </span>
+                <i className="ri-whatsapp-fill text-[#25D366] text-xl"></i>
+                <span className="font-medium">Say hi on WhatsApp</span>
               </a>
 
               {/* Discord */}
