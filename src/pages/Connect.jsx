@@ -43,7 +43,7 @@ function Connect() {
             <div className="flex flex-col sm:flex-row lg:flex-col gap-4 justify-center">
               {/* WhatsApp */}
               <a
-                href="https://wa.me/yourNumber"
+                href="https://wa.me/+919074109054"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-6 py-3 bg-[#25D366]/20 border border-[#25D366]/40 rounded-lg hover:bg-[#25D366]/30 transition-colors"
@@ -93,7 +93,7 @@ function Connect() {
           {/* message form */}
           <div className="w-full lg:w-1/2 border-[1px] border-accent bg-boxBg  p-6 sm:p-8 rounded-lg ">
             <form
-              action="https://formspree.io/f/yourFormID"
+              action="https://formspree.io/f/xldodran"
               method="POST"
               className="space-y-4"
             >
@@ -117,8 +117,8 @@ function Connect() {
               {/* email */}
               <div>
                 <label
-                  htmlFor="email"
-                  className="block text-left font-medium text-text mb-1"
+                  for="email"
+                  class="block text-left font-medium text-text mb-1"
                 >
                   Email
                 </label>
@@ -127,7 +127,9 @@ function Connect() {
                   id="email"
                   name="email"
                   required
-                  className="bg-transparent border-text/20 w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-1 focus:ring-accent"
+                  pattern="^[a-zA-Z0-9._%+-]+@gmail\.com$"
+                  title="Please enter a valid Gmail address (example@gmail.com)"
+                  class="bg-transparent border-text/20 w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-1 focus:ring-accent"
                 />
               </div>
 

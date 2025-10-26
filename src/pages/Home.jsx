@@ -1,7 +1,16 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import bg1 from "../assets/bg1.png";
 
 function Home() {
+
+
+
+ const navigate = useNavigate();
+
+
+
+
   return (
     // Hero Section
     <section className="w-full h-screen overflow-y-scroll bg-sectionBg text-white py-16 ">
@@ -24,10 +33,16 @@ function Home() {
               experiences that truly connect.
             </p>
             <div className="flex flex-wrap gap-4">
-              <button className="px-6 py-3 bg-white text-black rounded-xl font-semibold hover:bg-gray-300 transition">
+              <button
+                onClick={() => navigate("/Our Works")}
+                className="px-6 py-3 bg-white text-black rounded-xl font-semibold hover:bg-gray-300 transition"
+              >
                 View Projects
               </button>
-              <button className="px-6 py-3 border border-white rounded-xl font-semibold hover:bg-white hover:text-black transition">
+              <button
+                onClick={() => navigate("/Connect")}
+                className="px-6 py-3 border border-white rounded-xl font-semibold hover:bg-white hover:text-black transition"
+              >
                 Let’s Connect
               </button>
             </div>

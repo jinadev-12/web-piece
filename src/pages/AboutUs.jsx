@@ -55,7 +55,14 @@ const AboutUs = () => {
               Let us help you unlock the full potential of your business with
               our innovative designs.
             </p>
-            <button className="flex items-center gap-4 group hover-scale group">
+            <button
+              onClick={() =>
+                window.open(
+                  "https://mail.google.com/mail/?view=cm&fs=1&to=connect.webpiece@gmail.com"
+                )
+              }
+              className="flex items-center gap-4 group hover-scale group"
+            >
               <div className="w-20 h-20 group-hover:bg-accent rounded-full bg-transparent backdrop-blur-sm border-2  border-primary/40 flex items-center justify-center group-hover:bg-primary/20 group-hover:border-primary/60 transition-all duration-300">
                 <span>
                   <i class="fi fi-sr-link-alt text-3xl"></i>{" "}

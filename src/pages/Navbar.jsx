@@ -58,10 +58,14 @@ function Navbar() {
           {/* Contact Link (Gradient Button) */}
           <div className="hidden md:block">
             <a
-              href="#"
+              onClick={() =>
+                window.open(
+                  "https://mail.google.com/mail/?view=cm&fs=1&to=connect.webpiece@gmail.com"
+                )
+              }
               className="text-sm py-[6px] px-6 rounded font-[500]
               text-text bg-accent hover:opacity-80
-              transition-all duration-200 shadow-md hover:shadow-lg"
+              transition-all duration-200 shadow-md hover:shadow-lg cursor-pointer"
             >
               Contact
             </a>
