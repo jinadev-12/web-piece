@@ -66,7 +66,7 @@ function Projects() {
           {projects.map((p) => (
             <div
               key={p.id}
-              className="bg-boxBg border-[2px] border-[#ffffff38] hover:border-[#7300ff] hover:shadow-[0_0_10px_rgba(38,255,227,0.44)] rounded-2xl overflow-hidden transition-all duration-200 flex flex-col items-center aspect-video"
+              className="bg-boxBg border-[2px] border-[#ffffff38] hover:border-accent  rounded-2xl overflow-hidden transition-all duration-200 flex flex-col items-center aspect-video"
             >
               <img
                 src={p.img}
