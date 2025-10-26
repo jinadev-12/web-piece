@@ -82,9 +82,8 @@ function Reviews() {
                   bg-boxBg/80
                   rounded-2xl overflow-hidden flex flex-col justify-between
                   p-6 min-h-[320px]
-                  border-[1px] border-text/20
+                  border-[1px] border-accent
                   transition-all duration-300
-shadow-[inset_0_2px_8px_rgba(80,74,185,0.4),inset_0_-4px_12px_rgba(80,74,185,0.6)]
 
                 "
               >

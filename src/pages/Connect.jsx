@@ -91,7 +91,7 @@ function Connect() {
           </div>
 
           {/* message form */}
-          <div className="w-full lg:w-1/2 bg-boxBg/80 p-6 sm:p-8 rounded-lg shadow-lg">
+          <div className="w-full lg:w-1/2 border-[1px] border-accent bg-boxBg  p-6 sm:p-8 rounded-lg ">
             <form
               action="https://formspree.io/f/yourFormID"
               method="POST"
