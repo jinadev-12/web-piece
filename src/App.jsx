@@ -13,7 +13,7 @@ import AboutUs from "./pages/AboutUs";
 function App() {
   return (
     <Router>
-      <div className="bg-mainBg font-secondary h-[100vh] overflow-hidden">
+      <div className="bg-mainBg font-secondary min-h-screen overflow-hidden lg:h-[100vh]">
         <Navbar />
         {/* bg-[#313942] */}
         <div className="flex">

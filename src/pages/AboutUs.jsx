@@ -129,7 +129,7 @@ const AboutUs = () => {
                     <h3 className="text-xl md:text-2xl font-semibold text-primary-foreground mb-4 group-hover:translate-x-1 transition-transform duration-300">
                       {service.title}
                     </h3>
-                    <p className="text-base md:text-lg text-primary-foreground/80 leading-relaxed">
+                    <p className="text-sm md:text-base text-text/60 leading-relaxed">
                       {service.description}
                     </p>
                   </div>

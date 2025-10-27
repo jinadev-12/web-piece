@@ -42,17 +42,19 @@ function Projects() {
     // Products / our works
     <section
       id="projects"
-      className="text-text w-full h-screen overflow-hidden bg-sectionBg"
+      className="w-full h-[calc(100vh-64px)]
+overflow-y-auto bg-sectionBg text-white px-6 py-12"
     >
       {/* container */}
-      <div className="max-w-[1350px] h-full mx-auto px-6 py-16 md:py-20 overflow-y-scroll [&::-webkit-scrollbar]:hidden scrollbar-hide">
+      <div className="max-w-[1350px] mx-auto flex flex-col">
         {/* title */}
-        <div className="mb-16 md:mb-20 text-center">
+        <div className="text-center mb-12">
           <span className="py-2 px-4 text-sm rounded-full bg-boxBg/20 mb-4 md:mb-6 inline-block text-text">
             Our Works
           </span>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl max-w-[900px] mx-auto font-medium mb-3 text-text">
-            A glimpse of the projects we’ve built with passion and precision.
+          <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mt-6">
+            Have Questions?
+            <br /> Here Are Quick Answers
           </h2>
         </div>
 

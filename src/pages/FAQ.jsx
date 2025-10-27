@@ -103,9 +103,12 @@ export default function FAQ() {
   const [openItem, setOpenItem] = React.useState("");
 
   return (
-    <section className="w-full py-20 px-4 bg-sectionBg text-white min-h-[100vh] pt-10">
-      <div className="max-w-4xl mx-auto">
-        {/* Header */}
+    <section
+      className="w-full h-[calc(100vh-64px)]
+overflow-y-auto bg-sectionBg text-white px-6 py-12"
+    >
+      <div className="max-w-4xl mx-auto flex flex-col">
+        {/* title */}
         <div className="text-center mb-12">
           <span className="py-2 px-4 text-sm rounded-full bg-boxBg/20 mb-4 md:mb-6 inline-block text-text">
             Our Works

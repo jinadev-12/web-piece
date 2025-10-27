@@ -13,13 +13,16 @@ function Home() {
 
   return (
     // Hero Section
-    <section className="w-full h-screen overflow-y-scroll bg-sectionBg text-white py-16 ">
+    <section
+      className="w-full h-[calc(100vh-64px)]
+overflow-y-auto bg-sectionBg text-white px-6 py-12"
+    >
       {/* container */}
-      <div className="max-w-[1350px] mx-auto px-6 flex flex-col gap-12 pb-8 lg:pb-0">
+      <div className="max-w-[1350px] mx-auto flex flex-col gap-12">
         {/* title wrapper */}
-        <div className="flex flex-col md:flex-row items-center md:items-start gap-10">
+        <div className="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-10">
           {/* title */}
-          <div className="w-full md:w-1/2 space-y-6">
+          <div className="w-full md:w-1/2 min-w-[340px] space-y-6 text-center md:text-left">
             <h1 className="text-4xl md:text-5xl font-bold leading-tight">
               Crafting Web Experiences That Stand Out
             </h1>
@@ -32,7 +35,7 @@ function Home() {
               project is a piece of the bigger picture — building digital
               experiences that truly connect.
             </p>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4 justify-center md:justify-start">
               <button
                 onClick={() => navigate("/Our Works")}
                 className="px-6 py-3 bg-white text-black rounded-xl font-semibold hover:bg-gray-300 transition"
@@ -59,7 +62,7 @@ function Home() {
         </div>
 
         {/* features */}
-        <div className="flex flex-col md:flex-row justify-between gap-8">
+        <div className="flex flex-col lg:flex-row justify-between gap-8">
           {/* feature 1 */}
           <div className="flex-1 bg-boxBg border border-white/10 rounded-2xl p-6 hover:border-white/30 transition">
             <h3 className="text-xl font-semibold mb-2">
