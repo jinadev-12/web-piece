@@ -48,11 +48,11 @@ overflow-y-auto bg-sectionBg text-white px-6 py-12"
       {/* container */}
       <div className="max-w-[1350px] mx-auto flex flex-col">
         {/* title */}
-        <div className="text-center mb-12">
-          <span className="py-2 px-4 text-sm rounded-full bg-boxBg/20 mb-4 md:mb-6 inline-block text-text">
+        <div className="text-center mb-10">
+          <span className="py-2 px-4 text-sm rounded-full bg-boxBg/20 mb-2 md:mb-6 inline-block text-text">
             Our Works
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mt-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mt-2">
             Have Questions?
             <br /> Here Are Quick Answers
           </h2>
@@ -68,7 +68,7 @@ overflow-y-auto bg-sectionBg text-white px-6 py-12"
           {projects.map((p) => (
             <div
               key={p.id}
-              className="bg-boxBg border-[2px] border-[#ffffff38] hover:border-accent  rounded-2xl overflow-hidden transition-all duration-200 flex flex-col items-center aspect-video"
+              className="bg-boxBg border-[2px] border-accent hover:border-[#ffffff38]  rounded-2xl overflow-hidden transition-all duration-200 flex flex-col items-center aspect-video"
             >
               <img
                 src={p.img}

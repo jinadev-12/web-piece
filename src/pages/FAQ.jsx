@@ -109,11 +109,11 @@ overflow-y-auto bg-sectionBg text-white px-6 py-12"
     >
       <div className="max-w-4xl mx-auto flex flex-col">
         {/* title */}
-        <div className="text-center mb-12">
-          <span className="py-2 px-4 text-sm rounded-full bg-boxBg/20 mb-4 md:mb-6 inline-block text-text">
+        <div className="text-center mb-10">
+          <span className="py-2 px-4 text-sm rounded-full bg-boxBg/20 mb-2 md:mb-6 inline-block text-text">
             Our Works
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mt-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mt-2">
             Have Questions?
             <br /> Here Are Quick Answers
           </h2>

@@ -43,7 +43,7 @@ const AboutUs = () => {
         <div className="container relative z-10 px-6 py-20 ">
           <div className="w-full  flex justify-center items-center mb-4">
             <span className="py-2 px-4 text-sm rounded-full bg-boxBg/20 mb-4 md:mb-6 inline-block text-text">
-              Our Works
+              About Us
             </span>
           </div>
           <div className="max-w-2xl animate-fade-in">

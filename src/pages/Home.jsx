@@ -15,7 +15,7 @@ function Home() {
     // Hero Section
     <section
       className="w-full h-[calc(100vh-64px)]
-overflow-y-auto bg-sectionBg text-white px-6 py-12"
+overflow-y-auto bg-sectionBg text-white px-6 py-7"
     >
       {/* container */}
       <div className="max-w-[1350px] mx-auto flex flex-col gap-12">
