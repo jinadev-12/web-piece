@@ -105,7 +105,7 @@ export default function FAQ() {
   return (
     <section
       className="w-full h-[calc(100vh-64px)]
-overflow-y-auto bg-sectionBg text-white px-6 py-12"
+overflow-y-auto  bg-sectionBg text-white px-6 py-12"
     >
       <div className="max-w-4xl mx-auto flex flex-col">
         {/* title */}

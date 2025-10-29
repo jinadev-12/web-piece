@@ -9,25 +9,37 @@ import Projects from "./pages/Projects";
 import Reviews from "./pages/Reviews";
 import FAQ from "./pages/FAQ";
 import AboutUs from "./pages/AboutUs";
+import Preview from "./pages/Preview";
 
 function App() {
   return (
     <Router>
-      <div className="bg-mainBg font-secondary min-h-screen overflow-hidden lg:h-[100vh]">
-        <Navbar />
-        {/* bg-[#313942] */}
-        <div className="flex">
-          <Sidebar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/Connect" element={<Connect />} />
-            <Route path="/Our Works" element={<Projects />} />
-            <Route path="/Reviews" element={<Reviews />} />
-            <Route path="/FAQ" element={<FAQ />} />
-            <Route path="/AboutUs" element={<AboutUs />} />
-          </Routes>
-        </div>
-      </div>
+      <Routes>
+        {/* ✅ Full-screen Preview page (no Navbar, no Sidebar) */}
+        <Route path="/Preview" element={<Preview />} />
+
+        {/* ✅ All other pages inside main layout */}
+        <Route
+          path="*"
+          element={
+            <div className="bg-mainBg font-secondary min-h-screen overflow-hidden lg:h-[100vh]">
+              <Navbar />
+              <div className="flex">
+                <Sidebar />
+                {/* Inner routes for your main pages */}
+                <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/Connect" element={<Connect />} />
+                  <Route path="/Our Works" element={<Projects />} />
+                  <Route path="/Reviews" element={<Reviews />} />
+                  <Route path="/FAQ" element={<FAQ />} />
+                  <Route path="/AboutUs" element={<AboutUs />} />
+                </Routes>
+              </div>
+            </div>
+          }
+        />
+      </Routes>
     </Router>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import project1 from "../assets/thumbnail2.jpg";
 import project2 from "../assets/thumbnail1.jpg";
 import project3 from "../assets/thumbnail1.jpg";
@@ -7,20 +8,23 @@ import project4 from "../assets/thumbnail2.jpg";
 
 
 function Projects() {
+  const navigate = useNavigate();
   const projects = [
     {
       id: 1,
       title: "Portfolio Website",
       desc: "A modern portfolio site built with React and Tailwind CSS.",
       img: project1,
-      link: "#",
+      link: "https://elysian-hazel.vercel.app/",
+      git: "https://github.com/jinadev-12/elysian",
     },
     {
       id: 2,
       title: "Quiz App",
       desc: "An interactive JavaScript quiz app with score tracking.",
       img: project2,
-      link: "#",
+      link: "https://beauforte.vercel.app/",
+      git: "https://github.com/jinadev-12/Beauforte",
     },
     {
       id: 3,
@@ -28,6 +32,7 @@ function Projects() {
       desc: "A sleek and responsive digital clock built with vanilla JS.",
       img: project3,
       link: "#",
+      git: "#",
     },
     {
       id: 4,
@@ -35,6 +40,7 @@ function Projects() {
       desc: "A real-time weather app built with an API integration.",
       img: project4,
       link: "#",
+      git: "#",
     },
   ];
 
@@ -66,6 +72,7 @@ overflow-y-auto bg-sectionBg text-white px-6 py-12"
         >
           {projects.map((p) => (
             <div
+              onClick={() => navigate("/preview", { state: p })}
               key={p.id}
               className="bg-boxBg border-[2px] border-[#ffffff38] hover:border-accent  rounded-2xl overflow-hidden transition-all duration-200 flex flex-col items-center aspect-video"
             >
