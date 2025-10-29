@@ -111,9 +111,9 @@ overflow-y-auto bg-sectionBg text-white px-6 py-12"
         {/* title */}
         <div className="text-center mb-10">
           <span className="py-2 px-4 text-sm rounded-full bg-boxBg/20 mb-2 md:mb-6 inline-block text-text">
-            Our Works
+            FAQs
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mt-2">
+          <h2 className="text-3xl md:text-4xl font-medium text-white leading-tight mt-2">
             Have Questions?
             <br /> Here Are Quick Answers
           </h2>

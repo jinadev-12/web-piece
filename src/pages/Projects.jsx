@@ -52,9 +52,8 @@ overflow-y-auto bg-sectionBg text-white px-6 py-12"
           <span className="py-2 px-4 text-sm rounded-full bg-boxBg/20 mb-2 md:mb-6 inline-block text-text">
             Our Works
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mt-2">
-            Have Questions?
-            <br /> Here Are Quick Answers
+          <h2 className="text-2xl lg:text-3xl max-w-[900px] mx-auto font-medium mb-3 text-text">
+            A glimpse of the projects we’ve built with passion and precision.
           </h2>
         </div>
 

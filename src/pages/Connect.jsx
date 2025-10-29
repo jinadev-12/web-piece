@@ -11,11 +11,11 @@ function Connect() {
         {/* title */}
         <div className="text-center mb-10">
           <span className="py-2 px-4 text-sm rounded-full bg-boxBg/20 mb-2 md:mb-6 inline-block text-text">
-            Our Works
+            Connect
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mt-2">
-            Have Questions?
-            <br /> Here Are Quick Answers
+          <h2 className="text-2xl lg:text-3xl max-w-[900px] mx-auto font-medium mb-3 text-text">
+            Have a project in mind? Let’s work together! Fill out the form below
+            and I’ll get back to you within 24 hours.
           </h2>
         </div>
 
