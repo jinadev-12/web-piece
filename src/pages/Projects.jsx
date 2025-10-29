@@ -1,8 +1,8 @@
 import React from "react";
-import project1 from "../assets/thumbnail-elysian.jpg";
-import project2 from "../assets/thumbnail-givewell.jpg";
-import project3 from "../assets/thumbnail-beauforte.jpg";
-import project4 from "../assets/thumbnail-roamara.jpg";
+import project1 from "../assets/thumbnail2.jpg";
+import project2 from "../assets/thumbnail1.jpg";
+import project3 from "../assets/thumbnail1.jpg";
+import project4 from "../assets/thumbnail2.jpg";
 
 
 
@@ -68,7 +68,7 @@ overflow-y-auto bg-sectionBg text-white px-6 py-12"
           {projects.map((p) => (
             <div
               key={p.id}
-              className="bg-boxBg border-[2px] border-accent hover:border-[#ffffff38]  rounded-2xl overflow-hidden transition-all duration-200 flex flex-col items-center aspect-video"
+              className="bg-boxBg border-[2px] border-[#ffffff38] hover:border-accent  rounded-2xl overflow-hidden transition-all duration-200 flex flex-col items-center aspect-video"
             >
               <img
                 src={p.img}
