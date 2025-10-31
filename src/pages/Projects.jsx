@@ -1,9 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import project1 from "../assets/thumbnail2.jpg";
-import project2 from "../assets/thumbnail1.jpg";
-import project3 from "../assets/thumbnail1.jpg";
-import project4 from "../assets/thumbnail2.jpg";
+import project2 from "../assets/thumnail3.jpg";
+import project3 from "../assets/thumbnail4.jpg";
+import project4 from "../assets/thumbnail1.jpg";
 
 
 
