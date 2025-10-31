@@ -23,7 +23,7 @@ function Projects() {
       title: "Quiz App",
       desc: "An interactive JavaScript quiz app with score tracking.",
       img: project2,
-      link: "https://beauforte.vercel.app/",
+      link: "https://roamara.vercel.app/",
       git: "https://github.com/jinadev-12/Beauforte",
     },
     {
@@ -31,7 +31,7 @@ function Projects() {
       title: "Digital Clock",
       desc: "A sleek and responsive digital clock built with vanilla JS.",
       img: project3,
-      link: "#",
+      link: "https://give-well.vercel.app/",
       git: "#",
     },
     {
@@ -39,7 +39,7 @@ function Projects() {
       title: "Weather App",
       desc: "A real-time weather app built with an API integration.",
       img: project4,
-      link: "#",
+      link: "https://beauforte.vercel.app/",
       git: "#",
     },
   ];
