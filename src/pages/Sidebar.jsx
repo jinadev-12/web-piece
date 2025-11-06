@@ -7,7 +7,7 @@ const links = [
   { name: "About Us", path: "/AboutUs", icon: "fi fi-rr-file-user  " },
   // { name: "Reviews", path: "/Reviews", icon: "fi fi-rr-star " },
   { name: "Connect", path: "/Connect", icon: "fi fi-rr-comments " },
-  // { name: "F A Q", path: "/FAQ", icon: "fi fi-rr-comments-question " },
+  { name: "F A Q", path: "/FAQ", icon: "fi fi-rr-comments-question " },
 ];
 
 export default function Sidebar() {
